@@ -1,0 +1,307 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+/Users/helloyako/Downloads/Aviary SDK Bundle/Gallery2
+                                 -   -               
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* Android.mk
+* CleanSpec.mk
+* gallerycommon/
+* gallerycommon/.DS_Store
+* gallerycommon/Android.mk
+* gallerycommon/src/
+* gallerycommon/src/.DS_Store
+* gallerycommon/src/com/
+* gallerycommon/src/com/.DS_Store
+* gallerycommon/src/com/android/
+* gallerycommon/src/com/android/.DS_Store
+* gallerycommon/src/com/android/gallery3d/
+* gallerycommon/src/com/android/gallery3d/.DS_Store
+* gallerycommon/src/com/android/gallery3d/common/
+* gallerycommon/src/com/android/gallery3d/common/.DS_Store
+* gallerycommon/src/com/android/gallery3d/common/ApiHelper.java
+* gallerycommon/src/com/android/gallery3d/common/AsyncTaskUtil.java
+* gallerycommon/src/com/android/gallery3d/common/BitmapUtils.java
+* gallerycommon/src/com/android/gallery3d/common/BlobCache.java
+* gallerycommon/src/com/android/gallery3d/common/Entry.java
+* gallerycommon/src/com/android/gallery3d/common/EntrySchema.java
+* gallerycommon/src/com/android/gallery3d/common/FileCache.java
+* gallerycommon/src/com/android/gallery3d/common/Fingerprint.java
+* gallerycommon/src/com/android/gallery3d/common/HttpClientFactory.java
+* gallerycommon/src/com/android/gallery3d/common/LruCache.java
+* gallerycommon/src/com/android/gallery3d/common/OverScroller.java
+* gallerycommon/src/com/android/gallery3d/common/Scroller.java
+* gallerycommon/src/com/android/gallery3d/common/Utils.java
+* gallerycommon/src/com/android/gallery3d/exif/
+* gallerycommon/src/com/android/gallery3d/exif/ByteBufferInputStream.java
+* gallerycommon/src/com/android/gallery3d/exif/CountedDataInputStream.java
+* gallerycommon/src/com/android/gallery3d/exif/ExifData.java
+* gallerycommon/src/com/android/gallery3d/exif/ExifInterface.java
+* gallerycommon/src/com/android/gallery3d/exif/ExifInvalidFormatException.java
+* gallerycommon/src/com/android/gallery3d/exif/ExifModifier.java
+* gallerycommon/src/com/android/gallery3d/exif/ExifOutputStream.java
+* gallerycommon/src/com/android/gallery3d/exif/ExifParser.java
+* gallerycommon/src/com/android/gallery3d/exif/ExifReader.java
+* gallerycommon/src/com/android/gallery3d/exif/ExifTag.java
+* gallerycommon/src/com/android/gallery3d/exif/IfdData.java
+* gallerycommon/src/com/android/gallery3d/exif/IfdId.java
+* gallerycommon/src/com/android/gallery3d/exif/JpegHeader.java
+* gallerycommon/src/com/android/gallery3d/exif/OrderedDataOutputStream.java
+* gallerycommon/src/com/android/gallery3d/exif/Rational.java
+* gallerycommon/src/com/android/gallery3d/util/
+* gallerycommon/src/com/android/gallery3d/util/.DS_Store
+* gallerycommon/src/com/android/gallery3d/util/Future.java
+* gallerycommon/src/com/android/gallery3d/util/FutureListener.java
+* gallerycommon/src/com/android/gallery3d/util/PriorityThreadFactory.java
+* gallerycommon/src/com/android/gallery3d/util/ThreadPool.java
+* jni_mosaic/
+* jni_mosaic/Android.mk
+* jni_mosaic/NOTICE
+* jni_mosaic/feature_mos/
+* jni_mosaic/feature_mos/doc/
+* jni_mosaic/feature_mos/doc/Readme.txt
+* jni_mosaic/feature_mos/doc/feature_mos_API_doxyfile
+* jni_mosaic/feature_mos/src/
+* jni_mosaic/feature_mos/src/mosaic/
+* jni_mosaic/feature_mos/src/mosaic/AlignFeatures.cpp
+* jni_mosaic/feature_mos/src/mosaic/AlignFeatures.h
+* jni_mosaic/feature_mos/src/mosaic/Blend.cpp
+* jni_mosaic/feature_mos/src/mosaic/Blend.h
+* jni_mosaic/feature_mos/src/mosaic/CSite.h
+* jni_mosaic/feature_mos/src/mosaic/Delaunay.cpp
+* jni_mosaic/feature_mos/src/mosaic/Delaunay.h
+* jni_mosaic/feature_mos/src/mosaic/EdgePointerUtil.h
+* jni_mosaic/feature_mos/src/mosaic/Geometry.h
+* jni_mosaic/feature_mos/src/mosaic/ImageUtils.cpp
+* jni_mosaic/feature_mos/src/mosaic/ImageUtils.h
+* jni_mosaic/feature_mos/src/mosaic/Interp.h
+* jni_mosaic/feature_mos/src/mosaic/Log.h
+* jni_mosaic/feature_mos/src/mosaic/MatrixUtils.h
+* jni_mosaic/feature_mos/src/mosaic/Mosaic.cpp
+* jni_mosaic/feature_mos/src/mosaic/Mosaic.h
+* jni_mosaic/feature_mos/src/mosaic/MosaicTypes.h
+* jni_mosaic/feature_mos/src/mosaic/Pyramid.cpp
+* jni_mosaic/feature_mos/src/mosaic/Pyramid.h
+* jni_mosaic/feature_mos/src/mosaic/trsMatrix.cpp
+* jni_mosaic/feature_mos/src/mosaic/trsMatrix.h
+* jni_mosaic/feature_mos/src/mosaic_renderer/
+* jni_mosaic/feature_mos/src/mosaic_renderer/FrameBuffer.cpp
+* jni_mosaic/feature_mos/src/mosaic_renderer/FrameBuffer.h
+* jni_mosaic/feature_mos/src/mosaic_renderer/Renderer.cpp
+* jni_mosaic/feature_mos/src/mosaic_renderer/Renderer.h
+* jni_mosaic/feature_mos/src/mosaic_renderer/SurfaceTextureRenderer.cpp
+* jni_mosaic/feature_mos/src/mosaic_renderer/SurfaceTextureRenderer.h
+* jni_mosaic/feature_mos/src/mosaic_renderer/WarpRenderer.cpp
+* jni_mosaic/feature_mos/src/mosaic_renderer/WarpRenderer.h
+* jni_mosaic/feature_mos/src/mosaic_renderer/YVURenderer.cpp
+* jni_mosaic/feature_mos/src/mosaic_renderer/YVURenderer.h
+* jni_mosaic/feature_mos_jni.cpp
+* jni_mosaic/feature_stab/
+* jni_mosaic/feature_stab/db_vlvm/
+* jni_mosaic/feature_stab/db_vlvm/db_bundle.h
+* jni_mosaic/feature_stab/db_vlvm/db_feature_detection.cpp
+* jni_mosaic/feature_stab/db_vlvm/db_feature_detection.h
+* jni_mosaic/feature_stab/db_vlvm/db_feature_matching.cpp
+* jni_mosaic/feature_stab/db_vlvm/db_feature_matching.h
+* jni_mosaic/feature_stab/db_vlvm/db_framestitching.cpp
+* jni_mosaic/feature_stab/db_vlvm/db_framestitching.h
+* jni_mosaic/feature_stab/db_vlvm/db_image_homography.cpp
+* jni_mosaic/feature_stab/db_vlvm/db_image_homography.h
+* jni_mosaic/feature_stab/db_vlvm/db_metrics.h
+* jni_mosaic/feature_stab/db_vlvm/db_rob_image_homography.cpp
+* jni_mosaic/feature_stab/db_vlvm/db_rob_image_homography.h
+* jni_mosaic/feature_stab/db_vlvm/db_robust.h
+* jni_mosaic/feature_stab/db_vlvm/db_utilities.cpp
+* jni_mosaic/feature_stab/db_vlvm/db_utilities.h
+* jni_mosaic/feature_stab/db_vlvm/db_utilities_algebra.h
+* jni_mosaic/feature_stab/db_vlvm/db_utilities_camera.cpp
+* jni_mosaic/feature_stab/db_vlvm/db_utilities_camera.h
+* jni_mosaic/feature_stab/db_vlvm/db_utilities_constants.h
+* jni_mosaic/feature_stab/db_vlvm/db_utilities_geometry.h
+* jni_mosaic/feature_stab/db_vlvm/db_utilities_indexing.cpp
+* jni_mosaic/feature_stab/db_vlvm/db_utilities_indexing.h
+* jni_mosaic/feature_stab/db_vlvm/db_utilities_linalg.cpp
+* jni_mosaic/feature_stab/db_vlvm/db_utilities_linalg.h
+* jni_mosaic/feature_stab/db_vlvm/db_utilities_poly.cpp
+* jni_mosaic/feature_stab/db_vlvm/db_utilities_poly.h
+* jni_mosaic/feature_stab/db_vlvm/db_utilities_random.h
+* jni_mosaic/feature_stab/db_vlvm/db_utilities_rotation.h
+* jni_mosaic/feature_stab/doc/
+* jni_mosaic/feature_stab/doc/Readme.txt
+* jni_mosaic/feature_stab/doc/dbreg_API_doxyfile
+* jni_mosaic/feature_stab/src/
+* jni_mosaic/feature_stab/src/dbreg/
+* jni_mosaic/feature_stab/src/dbreg/dbreg.cpp
+* jni_mosaic/feature_stab/src/dbreg/dbreg.h
+* jni_mosaic/feature_stab/src/dbreg/dbstabsmooth.cpp
+* jni_mosaic/feature_stab/src/dbreg/dbstabsmooth.h
+* jni_mosaic/feature_stab/src/dbreg/targetver.h
+* jni_mosaic/feature_stab/src/dbreg/vp_motionmodel.c
+* jni_mosaic/feature_stab/src/dbreg/vp_motionmodel.h
+* jni_mosaic/feature_stab/src/dbregtest/
+* jni_mosaic/feature_stab/src/dbregtest/PgmImage.cpp
+* jni_mosaic/feature_stab/src/dbregtest/PgmImage.h
+* jni_mosaic/feature_stab/src/dbregtest/dbregtest.cpp
+* jni_mosaic/feature_stab/src/dbregtest/stdafx.cpp
+* jni_mosaic/feature_stab/src/dbregtest/stdafx.h
+* jni_mosaic/feature_stab/src/dbregtest/targetver.h
+* jni_mosaic/mosaic_renderer_jni.cpp
+* jni_mosaic/mosaic_renderer_jni.h
+* perftests/
+* perftests/.DS_Store
+* perftests/panorama/
+* perftests/panorama/.DS_Store
+* perftests/panorama/Android.mk
+* perftests/panorama/README.txt
+* perftests/panorama/benchmark.cpp
+* perftests/panorama/input/
+* perftests/panorama/input/test_001.ppm
+* perftests/panorama/input/test_002.ppm
+* perftests/panorama/input/test_003.ppm
+* perftests/panorama/input/test_004.ppm
+* perftests/panorama/input/test_005.ppm
+* perftests/panorama/input/test_006.ppm
+* perftests/panorama/input/test_007.ppm
+* perftests/panorama/input/test_008.ppm
+* perftests/panorama/input/test_009.ppm
+* perftests/panorama/input/test_010.ppm
+* perftests/panorama/input/test_011.ppm
+* perftests/panorama/input/test_012.ppm
+* perftests/panorama/input/test_013.ppm
+* perftests/panorama/input/test_014.ppm
+* perftests/panorama/input/test_015.ppm
+* perftests/panorama/input/test_016.ppm
+* perftests/panorama/input/test_017.ppm
+* perftests/panorama/input/test_018.ppm
+* perftests/panorama/input/test_019.ppm
+* perftests/panorama/input/test_020.ppm
+* perftests/panorama/input/test_021.ppm
+* perftests/panorama/input/test_022.ppm
+* perftests/panorama/input/test_023.ppm
+* perftests/panorama/input/test_024.ppm
+* perftests/panorama/input/test_025.ppm
+* perftests/panorama/input/test_026.ppm
+* perftests/panorama/input/test_027.ppm
+* perftests/panorama/input/test_028.ppm
+* perftests/panorama/input/test_029.ppm
+* perftests/panorama/input/test_030.ppm
+* perftests/panorama/input/test_031.ppm
+* perftests/panorama/input/test_032.ppm
+* perftests/panorama/input/test_033.ppm
+* perftests/panorama/input/test_034.ppm
+* perftests/panorama/input/test_035.ppm
+* perftests/panorama/input/test_036.ppm
+* perftests/panorama/input/test_037.ppm
+* perftests/panorama/input/test_038.ppm
+* perftests/panorama/output/
+* perftests/panorama/output/golden.ppm
+* proguard.flags
+* src_pd/
+* src_pd/.DS_Store
+* src_pd/com/
+* src_pd/com/.DS_Store
+* src_pd/com/android/
+* src_pd/com/android/.DS_Store
+* src_pd/com/android/gallery3d/
+* src_pd/com/android/gallery3d/.DS_Store
+* src_pd/com/android/gallery3d/app/
+* src_pd/com/android/gallery3d/app/.DS_Store
+* src_pd/com/android/gallery3d/app/StitchingProgressManager.java
+* src_pd/com/android/gallery3d/filtershow/
+* src_pd/com/android/gallery3d/filtershow/.DS_Store
+* src_pd/com/android/gallery3d/filtershow/editors/
+* src_pd/com/android/gallery3d/filtershow/editors/.DS_Store
+* src_pd/com/android/gallery3d/filtershow/editors/EditorManager.java
+* src_pd/com/android/gallery3d/filtershow/filters/
+* src_pd/com/android/gallery3d/filtershow/filters/.DS_Store
+* src_pd/com/android/gallery3d/filtershow/filters/FiltersManager.java
+* src_pd/com/android/gallery3d/picasasource/
+* src_pd/com/android/gallery3d/picasasource/PicasaSource.java
+* src_pd/com/android/gallery3d/settings/
+* src_pd/com/android/gallery3d/settings/GallerySettings.java
+* src_pd/com/android/gallery3d/util/
+* src_pd/com/android/gallery3d/util/.DS_Store
+* src_pd/com/android/gallery3d/util/LightCycleHelper.java
+* src_pd/com/android/gallery3d/util/UsageStatistics.java
+* src_pd/com/android/gallery3d/util/XmpUtilHelper.java
+* src_pd/com/android/photos/
+* src_pd/com/android/photos/data/
+* src_pd/com/android/photos/data/PhotoProviderAuthority.java
+* tests/
+* tests/Android.mk
+* tests/exiftool_parser/
+* tests/exiftool_parser/parser.py
+* tests_camera/
+* tests_camera/Android.mk
+* tests_camera/AndroidManifest.xml
+* tests_camera/src/
+* tests_camera/src/com/
+* tests_camera/src/com/android/
+* tests_camera/src/com/android/camera/
+* tests_camera/src/com/android/camera/CameraLaunchPerformance.java
+* tests_camera/src/com/android/camera/CameraTestRunner.java
+* tests_camera/src/com/android/camera/StressTests.java
+* tests_camera/src/com/android/camera/UnitTests.java
+* tests_camera/src/com/android/camera/activity/
+* tests_camera/src/com/android/camera/activity/CameraActivityTest.java
+* tests_camera/src/com/android/camera/activity/CameraTestCase.java
+* tests_camera/src/com/android/camera/functional/
+* tests_camera/src/com/android/camera/functional/CameraTest.java
+* tests_camera/src/com/android/camera/functional/ImageCaptureIntentTest.java
+* tests_camera/src/com/android/camera/functional/VideoCaptureIntentTest.java
+* tests_camera/src/com/android/camera/power/
+* tests_camera/src/com/android/camera/power/ImageAndVideoCapture.java
+* tests_camera/src/com/android/camera/stress/
+* tests_camera/src/com/android/camera/stress/CameraLatency.java
+* tests_camera/src/com/android/camera/stress/CameraStartUp.java
+* tests_camera/src/com/android/camera/stress/CameraStressTestRunner.java
+* tests_camera/src/com/android/camera/stress/ImageCapture.java
+* tests_camera/src/com/android/camera/stress/ShotToShotLatency.java
+* tests_camera/src/com/android/camera/stress/SwitchPreview.java
+* tests_camera/src/com/android/camera/stress/TestUtil.java
+* tests_camera/src/com/android/camera/stress/VideoCapture.java
+* tests_camera/src/com/android/camera/unittest/
+* tests_camera/src/com/android/camera/unittest/CameraUnitTest.java
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* jni/ => app/src/main/jni/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/com/android/gallery3d/filtershow/filters/convolve3x3.rs => app/src/main/rs/convolve3x3.rs
+* src/com/android/gallery3d/filtershow/filters/grey.rs => app/src/main/rs/grey.rs
+* tests/res/ => app/src/androidTest/res/
+* tests/src/ => app/src/androidTest/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
